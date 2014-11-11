@@ -4,7 +4,7 @@ name: Cat
 twitter: xxx
 github: xxx
 description: xxx
-baseurl: "/jekyll-workshop/"
+baseurl: "/jekyll-workshop"
 url: "" # the base hostname & protocol for your site
 
 # Build settings
