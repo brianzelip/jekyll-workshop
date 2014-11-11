@@ -1,0 +1,30 @@
+/*
+
+  Box Sizing snippet via https://github.com/mrmrs/box
+
+*/
+
+nav,
+main,
+section,
+article,
+aside,
+header,
+footer,
+div,
+p,
+ul,
+ol,
+dl,
+form,
+fieldset,
+textarea,
+input[type="text"],
+input[type="tel"],
+input[type="url"],
+input[type="email"],
+input[type="search"],
+input[type="password"],
+.border-box {
+  box-sizing: border-box;
+}

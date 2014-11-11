@@ -1,0 +1,99 @@
+---
+---
+// THIS IS THE MAIN SASS FILE THAT IMPORTS ALL .scss FILES. JEKYLL TAKS THIS FILE
+// AND SPITS OUT _site/css/main.css.
+
+/****************************************************************************************
+ *                                                                                      *
+ *   NOTE FOR WEBMONKEYS JEKYLL WORKSHOP: We're using the Basscss CSS library (with a   *
+ *   few tweaks) for quickly prototyping a site for the workshop. Older version of      *
+ *   Basscss (< v4.0) are based on Sass. Newer versions of Basscss are based on the     *
+ *   Node preprocessor [Rework](https://github.com/reworkcss/rework).                  *                                     *
+ *                                                                                      *                                                                                      *
+ *   - @bzelip                                                                          *
+ *                                                                                      *
+ ****************************************************************************************/
+
+/*
+
+  BASSCSS
+
+  Next-level CSS toolkit - http://basscss.com
+
+  Made with love by Jxnblk - ©2014 Brent Jackson
+  MIT License http://opensource.org/licenses/MIT
+
+*/
+
+
+// Global
+@import "variables";
+@import "normalize";
+@import "box-sizing";
+
+
+// Base
+@import "type";
+@import "margins";
+@import "padding";
+@import "utilities";
+@import "lists";
+@import "positions";
+@import "tables";
+
+
+// Components
+@import "buttons";
+@import "grid";
+@import "table-object";
+@import "navs";
+
+
+// Thematic styles
+@import "colors";
+@import "borders";
+@import "form-themes";
+@import "table-themes";
+@import "button-themes";
+@import "nav-themes";
+
+
+// Custom styles for Jekyll workshop
+
+/* Scaffolding and type
+ ================================================== */
+html {
+  font-size: 18px;
+}
+
+@media screen and (min-width: $breakpoint-desktop) {
+  html {
+    font-size: 20px;
+  }
+}
+
+.nav {
+  padding-left: 0;
+  margin-left: 0;
+  text-align: center;
+}
+
+.nav li {
+  list-style: none;
+  padding-left: 0;
+  display: inline;
+  
+}
+@media screen and (min-width: $breakpoint-desktop) {
+  .nav li {
+    display: block;
+    padding-left: 0;
+    margin-left: 0;
+    text-align: left;
+  }
+}
+
+
+.header-text {
+  font-family: $header-font-family;
+}

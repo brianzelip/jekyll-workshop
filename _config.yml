@@ -1,0 +1,14 @@
+# Site settings
+title: xxx
+name: Cat
+twitter: xxx
+github: xxx
+description: xxx
+baseurl: ""
+url: "" # the base hostname & protocol for your site
+
+# Build settings
+markdown: kramdown
+highlighter: pygments
+permalink: pretty
+relative_permalinks: true
